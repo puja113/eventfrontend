@@ -1,0 +1,66 @@
+.get_hire {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        color: #8033DD;
+        font-family: "Vidaloka", serif;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: 120px;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        border: 0.5px solid #8033DD;
+        outline: none;
+        border-radius: 20px;
+        background-color: #ffffff;
+        background: linear-gradient(270deg, #ffffff 50%, #8033DD 0) 100%;
+        background-size: 200%;
+        transition: .5s ease-out;
+        -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+        -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+
+        &:hover {
+            background-position: 0;
+            border: 0.5px solid #ffffff;
+            color: #ffffff;
+        }
+    }
+}
+
+.custom_dropdown {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    .autoRotate {
+        transform: rotate(180deg);
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: 0 6px 24px 0 rgba(133, 133, 133, 0.3);
+        background-color: transparent;
+        padding: 5px 10px;
+        border-radius: 4px;
+        width: 140px;
+        position: absolute;
+        top: 15px;
+        left: 0px;
+
+        li {
+            display: flex;
+            align-items: center;
+            margin-top: 6px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+    }
+}

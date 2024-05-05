@@ -1,0 +1,16 @@
+.back_button{
+    font-family: "Vidaloka", serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #8033DD;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 23px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    cursor:pointer;
+    width: 42px;
+}

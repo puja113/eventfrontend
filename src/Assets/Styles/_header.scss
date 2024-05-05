@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Unna:ital,wght@0,400;0,700;1,400;1,700&family=Vidaloka&display=swap');
+
+$minwidth: 768px;
+$maxwidth: 991px;
+
+.main_container {
+    max-width: 100%;
+
+    .header_section {
+       // background: url(../Images/Background.png) bottom center no-repeat;
+        background-size: cover;
+        //min-height: 90vh;
+        max-height: 100%;
+
+        @media screen and (max-width: $minwidth) {
+            min-height: auto;
+            max-height: auto;
+            padding-bottom: 15px;
+        }
+
+        .header_wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px;
+
+            .logo {
+                display: flex;
+                align-items: center;
+
+                h5,
+                h4 {
+                    font-family: "Unna", serif;
+                    font-size: 24px;
+                    font-weight: 400;
+                    margin: 0px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+                h5:hover{
+                    color: #8033DD;
+                }
+
+                h4 {
+                    color: #8033DD;
+                    border-right: 2px solid #8033DD;
+                    padding-right: 10px;
+                }
+                .navlink_div{
+                    text-decoration: none;
+                    color: #000;
+                }
+
+                .activeTab {
+                    font-weight: 800;
+                    color: #8033DD;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,231 @@
+@import '~bootstrap/scss/bootstrap';
+@import './Assets/Styles/font';
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+canvas {
+  display: none;
+  position: absolute;
+  left: 0;
+  opacity: 0.5;
+  top: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.ui.fluid.dropdown {
+  max-width: 280px;
+}
+
+.ui.multiple.dropdown>.label {
+  text-decoration: none;
+  color: #8033DD;
+  font-family: "Vidaloka", serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: #fff;
+}
+
+.ui.default.dropdown:not(.button)>.text,
+.ui.dropdown:not(.button)>.default.text {
+  color: #8033DD;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.ui.fluid.dropdown {
+  width: 280px;
+  border-radius: 30px;
+  padding: 10px;
+  outline: none;
+  border: 0.5px solid #e1e1e1;
+}
+
+.ui.dropdown .menu .selected.item,
+.ui.dropdown.selected {
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  font-size: 14px;
+  color: #1C2024;
+}
+
+.ui.selection.dropdown:hover {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+  border: 0.5px solid #9944FF;
+}
+
+// Birthday CSS Rule START
+.birthdayBody {
+  background-color: #010d1d;
+  padding: 0 15px;
+  color: #fff;
+}
+
+#topWrap {
+  background: url('../src/Assets/Images/hero_bg.png') top right no-repeat #010d1d;
+  height: 100%;
+  color: #fff;
+  margin: 0 -15px;
+  padding: 0 15px;
+  padding-bottom: 80px;
+
+  & .topIcon {
+    padding-top: 40px;
+    text-align: right;
+
+    & span {
+      margin-left: 15px;
+    }
+  }
+
+  .topHeading {
+    margin-top: 90px;
+    text-align: center;
+
+    .invited_text {
+      color: #fff;
+      font-size: 16px;
+
+      h3>img {
+        display: block;
+        margin: 5px auto 0 auto;
+      }
+
+      .profile_img {
+        margin-top: 50px;
+      }
+    }
+
+    .birthday_text {
+      & img:first-child {
+        display: block;
+        margin: -20px auto 0 auto;
+      }
+
+      & img:last-child {
+        display: block;
+        margin: -5px auto 0 auto;
+      }
+    }
+  }
+
+  .starText {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .scroll_content {
+    margin-top: 56px;
+    color: #FFA7A4;
+    font-size: 12px;
+    text-transform: uppercase;
+
+    p {
+      margin-top: 5px;
+    }
+  }
+}
+
+#dateWrap {
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+  padding: 60px 0;
+  background: url('../src/Assets/Images/rect_border.png') center center no-repeat;
+  position: relative;
+}
+
+#CrausleWrap {
+  text-align: center;
+  padding-bottom: 100px;
+  position: relative;
+
+  img {
+    border-radius: 20px;
+  }
+
+  h3 {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 14px;
+    max-width: 300px;
+    margin: 25px auto;
+  }
+
+  button {
+    border: 2px solid #DBB071;
+    background-color: transparent;
+    color: #DBB071;
+    text-transform: uppercase;
+    height: 45px;
+    width: 185px;
+    text-align: center;
+    border-radius: 20px;
+
+    a {
+      text-decoration: none;
+      color: #DBB071;
+    }
+  }
+}
+
+#footerWarp {
+  background: url('../src/Assets/Images/footer_bg.png') bottom center no-repeat #f2f2f4;
+  background-size: contain;
+  margin: 0 -15px;
+  padding: 0 15px;
+  padding-top: 80px;
+  text-align: center;
+  min-height: 630px;
+  height: 100%;
+
+  img {
+    display: block;
+    margin: 17px auto;
+
+    &:last-child {
+      margin-top: 30px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.animate_heartBeat {
+  animation-duration: 2s;
+}
+
+.footer_stripe {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+
+  img {
+    max-width: 190px;
+    padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.carousel-item img {
+  max-width: 295px;
+  border-radius: 20px;
+}
+
+// Birthday CSS Rule END

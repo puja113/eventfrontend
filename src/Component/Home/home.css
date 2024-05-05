@@ -1,0 +1,13 @@
+.drop_down {
+    max-width: 120px;
+    font-weight: 800;
+    color: #8033DD;
+    font-family: "Vidaloka", serif;
+    text-align: center;
+    justify-content: center;
+    border-radius: 19px;
+    margin: 0px 15px;
+    padding: 1px 20px;
+    border: 0.5px solid #8033DD;
+}
+
